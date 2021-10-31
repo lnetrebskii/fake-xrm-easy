@@ -5,21 +5,21 @@
     <RootNamespace>FakeXrmEasy.Tests.NetCore</RootNamespace>
 
     <IsPackable>false</IsPackable>
-	<DefineConstants>FAKE_XRM_EASY_DOTNETCORE,FAKE_XRM_EASY_9</DefineConstants>
-	  <Version>1.57.1</Version>
-	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-	  <SignAssembly>true</SignAssembly>
-	  <AssemblyOriginatorKeyFile>fakexrmeasy.snk</AssemblyOriginatorKeyFile>
-	  <PackageId>FakeXrmEasy.Tests.9.NetCore</PackageId>
-	  <Product>FakeXrmEasy.Tests.9.NetCore</Product>
+    <DefineConstants>FAKE_XRM_EASY_DOTNETCORE,FAKE_XRM_EASY_9</DefineConstants>
+    <Version>1.57.1</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>fakexrmeasy.snk</AssemblyOriginatorKeyFile>
+    <PackageId>FakeXrmEasy.Tests.9.NetCore</PackageId>
+    <Product>FakeXrmEasy.Tests.9.NetCore</Product>
   </PropertyGroup>
-	<Import Project="..\FakeXrmEasy.Tests.Shared\FakeXrmEasy.Tests.Shared.projitems" Label="Shared" />
+  <Import Project="..\FakeXrmEasy.Tests.Shared\FakeXrmEasy.Tests.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Dynamics.Sdk.Messages" Version="0.4.6" />
+    <PackageReference Include="Microsoft.Dynamics.Sdk.Messages" Version="0.5.10" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
-    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="0.4.6" />
-    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client.Dynamics" Version="0.4.6" />
+    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="0.5.10" />
+    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client.Dynamics" Version="0.5.10" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
